@@ -1,0 +1,52 @@
+#root {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 250px;
+}
+
+.title-counter {
+    font-size: 30px;
+    font-weight: bold;
+    color: #131010;
+    margin-bottom: 20px;
+}
+
+.numero-counter {
+    flex-direction: column;
+    display: flex;
+    font-size: 50px;
+}
+
+.plus-counter {
+    font-size: 20px;
+    color: white;
+    background: #05e205;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.minus-counter {
+    font-size: 20px;
+    color: white;
+    background: #c0392b;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.reset-counter {
+    font-size: 20px;
+    color: white;
+    background-color: rgba(52, 73, 94);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
